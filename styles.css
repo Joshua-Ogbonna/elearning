@@ -7,7 +7,8 @@
     padding: 4rem 20rem;
 }
 
-@media (max-width: 667px) {
+
+@media only screen and (max-width: 600px) {
     #form-section {
         margin: 0 auto;
         padding: 4rem 0rem;
@@ -15,10 +16,14 @@
     #navbar {
         background: #1a508b;
     }
-    
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
 }
 
-@media (max-width: 1366px) {
+
+@media (min-width: 1024px) {
     #form-section {
         margin: 0 auto;
         padding: 4rem 10rem;
