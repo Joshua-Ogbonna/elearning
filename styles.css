@@ -1,0 +1,30 @@
+#navbar {
+    background: #1a508b;
+}
+
+#form-section {
+    margin: 0 auto;
+    padding: 4rem 20rem;
+}
+
+@media (max-width: 667px) {
+    #form-section {
+        margin: 0 auto;
+        padding: 4rem 0rem;
+    }
+    #navbar {
+        background: #1a508b;
+    }
+    
+}
+
+@media (max-width: 1366px) {
+    #form-section {
+        margin: 0 auto;
+        padding: 4rem 10rem;
+    }
+    #navbar {
+        background: #1a508b;
+    }
+    
+}
